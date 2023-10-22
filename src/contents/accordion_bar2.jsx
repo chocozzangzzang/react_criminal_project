@@ -17,7 +17,9 @@ function Accordion_bar2(props) {
             {
                 isOpen && (
                     <div className='content_center_align'>
-                        <h6>서울위험도지도</h6>
+                        <h6><a className="no_dash" href={`/ydp_predict`}>영등포위험도지도</a></h6>
+                        <h6><a className="no_dash" href={`/gd_predict`}>강동위험도지도</a></h6>
+                        <h6><a className="no_dash" href={`/seoul_predict`}>서울위험도지도</a></h6>
                     </div>
                 )
             }

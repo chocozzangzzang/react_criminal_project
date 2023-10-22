@@ -2,18 +2,18 @@ import React from 'react'
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function yeongdeungpo_predict() {
+function seoul_predict() {
   return (
     <div className='maps'>
         <iframe
             className='left_map_margin'
-            src="./htmls/yeongdeungpo_map3_predict2.html"
+            src="./htmls/all_predict.html"
             title="ydp_predict"
             scrolling="no">
         </iframe>
         <iframe
-        className='right_map_margin'
-            src="./htmls/yeongdeungpo_map4_real2.html"
+          className='right_map_margin'
+            src="./htmls/all_real.html"
             title="ydp_real"
             scrolling="no">
         </iframe>
@@ -21,4 +21,4 @@ function yeongdeungpo_predict() {
   );
 }
 
-export default yeongdeungpo_predict;
+export default seoul_predict;
