@@ -6,7 +6,7 @@ import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import MAIN from './contents/main'
 import AccordionBarYDP from './contents/accordion_bar_ydp';
 import AccordionBarGD from './contents/accordion_bar_gangdong';
-import AccordionBar2 from './contents/accordion_bar2';
+// import AccordionBar2 from './contents/accordion_bar2';
 import YDPYUDONG from './contents/yeongdeungpo_yudong';
 import YDPALCO from './contents/yeongdeungpo_alco';
 import YDPINFRA from './contents/yeongdeungpo_infra';
@@ -28,12 +28,12 @@ function App() {
     <BrowserRouter>
       <div className="ml20">  
         <h3><a href={`/`} className='no_dash_title'>SmartSafety</a></h3>
-        <div className="accordions">
+        <div className="accordions ">
           <AccordionBarYDP title="폭력(영등포구)"/>
-          <AccordionBar2 title="절도(강서구)"/>
-          <AccordionBar2 title="성폭력(강남구)"/>
+          <AccordionBarYDP title="절도(강서구)"/>
+          <AccordionBarYDP title="성폭력(강남구)"/>
           <AccordionBarGD title="5대범죄(강동구)"/>
-          <AccordionBar2 title="위험도지도"/>
+          <AccordionBarYDP title="위험도지도"/>
         </div>
       </div>
       <div>

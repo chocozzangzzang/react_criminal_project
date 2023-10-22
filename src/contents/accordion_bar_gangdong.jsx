@@ -19,11 +19,11 @@ function Accordion_bar_gd(props) {
             {
                 isOpen && (
                     <div className='content_center_align'>
-                        <h6><a className="no_dash" href={`/gd_alco`}>주점수비교</a></h6>
-                        <h6><a className="no_dash" href={`/gd_infra`}>보안인프라비교</a></h6>
-                        <h6><a className="no_dash" href={`/gd_yudong`}>유동인구필터링</a></h6>
-                        <h6><a className="no_dash" href={`/gd_afterwork`}>유입인구</a></h6>
-                        <h6><a className="no_dash" href={`/gd_police`}>경찰관수비교</a></h6>
+                        <h6><a className="no_dash text-muted" href={`/gd_alco`}>주점수비교</a></h6>
+                        <h6><a className="no_dash text-muted" href={`/gd_infra`}>보안인프라비교</a></h6>
+                        <h6><a className="no_dash text-muted" href={`/gd_yudong`}>유동인구필터링</a></h6>
+                        <h6><a className="no_dash text-muted" href={`/gd_afterwork`}>유입인구</a></h6>
+                        <h6><a className="no_dash text-muted" href={`/gd_police`}>경찰관수비교</a></h6>
                     </div>
                 )
             }
