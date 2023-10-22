@@ -9,7 +9,7 @@ function yeongdeungpo_alco() {
       <iframe
         width="100%"
         height="100%"
-            src="https://public.tableau.com/views/total_16963303018100/sheet46_1?:language=ko-KR&publish=yes&:display_count=n&:origin=viz_share_link?:showVizHome=no?:embed=true"
+            src="https://public.tableau.com/views/total_16963303018100/sheet46_1?:language=ko-KR&:display_count=n&:origin=viz_share_link?:showVizHome=no?:embed=true"
             title="ydp_alco"
             scrolling="no">
         </iframe>

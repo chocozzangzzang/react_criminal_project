@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@600&family=Sunflower:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@600;700&family=Sunflower:wght@500&display=swap');
+
+
 .App {
+  background-color: #181818;
+  font-family: 'IBM Plex Sans KR', sans-serif;
   text-align: left;
   display: flex;
+  
+  
+  
 }
 
 .App-logo {
@@ -23,7 +32,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -40,20 +48,24 @@
 }
 
 .ml20 {
-  background: linear-gradient(
-    to top,
-    #F3F781,
-    #FFFF00
-  );
+  font-size: 25px;
+  padding-top: 30px;
+  border: 2px solid whitesmoke;
+  margin-top: 30px;
   margin-left: 30px;
-  margin-top : 30px;
   width: 100%;
-  height: 95vh;
+  height: 100vh;
   border-radius: 20px;
   text-align: center;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  /* background-color: #C2D5DA */
+  background: linear-gradient(
+    to bottom,
+    #C2D5DA,
+    #d3d3d3
+  );
 }
 
 .maindashboard {
@@ -64,11 +76,11 @@
 
 .charts {
   margin-right: 15px;
-  margin-top: 15px;
+  margin-top: 19px;
   margin-left: 15px;
   margin-bottom: 15px;
   width: 80vw;
-  height: 95vh;
+  height: 100vh;
   align-items: center;
   display: flex;
   border-radius: 20px;
@@ -76,10 +88,12 @@
 
 .maps {
   margin-right: 15px;
-  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 19px;
   display: flex;
   width: 80vw;
-  height: 95vh;
+  height: 100vh;
   align-items: center;
 
 }
@@ -90,7 +104,6 @@
 
 .no_dash_title {
   text-decoration: none;
-  color:#7a7c17;
 }
 
 .left_map_margin {
@@ -119,9 +132,11 @@
 }
 
 .accordions {
-  padding-left: 2.5vw;
+  padding-left: 3vw;
   justify-content: center;
   align-items: center;
   text-align: center;
   width: 100%;
+  font-weight: bold;
+  font-size: 20px;
 }
