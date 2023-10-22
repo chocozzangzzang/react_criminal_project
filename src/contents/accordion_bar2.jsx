@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from "react";
+import '../App.css';
 
 
 function Accordion_bar2(props) {
