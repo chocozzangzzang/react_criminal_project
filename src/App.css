@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  display: flex;
 }
 
 .App-logo {
@@ -15,6 +16,7 @@
 
 .App-header {
   background-color: #282c34;
+  width: 25vh;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +37,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ml20 {
+  margin-left: 20px;
+  margin-top : 50px;
+  width: 40vh;
+  height: 800px;
+  background-color: #61dafb;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.maindashboard {
+  margin-top: 50px;
+}
+
+.charts {
+  margin-top: 50px;
+  width: 1600px;
+  height: 800px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.maps {
+  display: flex;
+  width: 1600px;
+  height: 800px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.no_dash {
+  text-decoration: none;
+}
+
+.left_map_margin {
+  margin-right: 50px;
 }
