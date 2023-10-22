@@ -8,8 +8,8 @@ function yeongdeungpo_police() {
         <iframe
             src="https://public.tableau.com/views/total_16963303018100/sheet46?:language=ko-KR&publish=yes&:display_count=n&:origin=viz_share_link?:showVizHome=no?:embed=true"
             title="ydp_police"
-            width="1400"
-            height="700"
+            width="100%"
+            height="100%"
             scrolling="no">
         </iframe>
     </div>

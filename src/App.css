@@ -40,42 +40,88 @@
 }
 
 .ml20 {
-  margin-left: 20px;
-  margin-top : 50px;
-  width: 40vh;
-  height: 800px;
-  background-color: #61dafb;
+  background: linear-gradient(
+    to top,
+    #F3F781,
+    #FFFF00
+  );
+  margin-left: 30px;
+  margin-top : 30px;
+  width: 100%;
+  height: 95vh;
   border-radius: 20px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   margin-right: 10px;
 }
 
 .maindashboard {
-  margin-top: 50px;
+  margin-top: 15px;
+  width: 1600px;
+  height: 95vh;
 }
 
 .charts {
-  margin-top: 50px;
-  width: 1600px;
-  height: 800px;
-  justify-content: center;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 80vw;
+  height: 95vh;
   align-items: center;
   display: flex;
+  border-radius: 20px;
 }
 
 .maps {
+  margin-right: 15px;
+  margin-top: 15px;
   display: flex;
-  width: 1600px;
-  height: 800px;
-  margin-top: 50px;
-  justify-content: center;
+  width: 80vw;
+  height: 95vh;
   align-items: center;
+
 }
 
 .no_dash {
   text-decoration: none;
 }
 
+.no_dash_title {
+  text-decoration: none;
+  color:#7a7c17;
+}
+
 .left_map_margin {
-  margin-right: 50px;
+  width: 50%;
+  height: 90%;
+  margin-left: 15px;
+  margin-right : 30px;
+}
+
+.right_map_margin {
+  width: 50%;
+  height: 90%;
+  margin-right: 15px;
+}
+
+.tableau_container {
+  width: 100%;
+  height: 100%;
+  margin: 15px;
+  padding: 10px;
+  align-items: center;
+}
+
+.menus-title {
+  justify-content: center;
+}
+
+.accordions {
+  padding-left: 2.5vw;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
 }

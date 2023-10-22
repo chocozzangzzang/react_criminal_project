@@ -4,7 +4,7 @@ import "../App.css";
 import "./accordion_bar.css";
 
 
-function Accordion_bar_ydp(props) {
+function Accordion_bar_gd(props) {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggling = () => {
@@ -19,11 +19,11 @@ function Accordion_bar_ydp(props) {
             {
                 isOpen && (
                     <div className='content_center_align'>
-                        <h6><a className="no_dash" href={`/ydp_alco`}>주점수비교</a></h6>
-                        <h6><a className="no_dash" href={`/ydp_infra`}>보안인프라비교</a></h6>
-                        <h6><a className="no_dash" href={`/ydp_yudong`}>유동인구필터링</a></h6>
-                        <h6><a className="no_dash" href={`/ydp_afterwork`}>유입인구</a></h6>
-                        <h6><a className="no_dash" href={`/ydp_police`}>경찰관수비교</a></h6>
+                        <h6><a className="no_dash" href={`/gd_alco`}>주점수비교</a></h6>
+                        <h6><a className="no_dash" href={`/gd_infra`}>보안인프라비교</a></h6>
+                        <h6><a className="no_dash" href={`/gd_yudong`}>유동인구필터링</a></h6>
+                        <h6><a className="no_dash" href={`/gd_afterwork`}>유입인구</a></h6>
+                        <h6><a className="no_dash" href={`/gd_police`}>경찰관수비교</a></h6>
                     </div>
                 )
             }
@@ -32,4 +32,4 @@ function Accordion_bar_ydp(props) {
 
 }
 
-export default Accordion_bar_ydp;
+export default Accordion_bar_gd;

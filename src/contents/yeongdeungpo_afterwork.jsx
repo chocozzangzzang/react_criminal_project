@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function yeongdeungpo_afterwork() {
+function gangdong_afterwork() {
   return (
     <div className='charts'>
         <iframe
@@ -16,4 +16,4 @@ function yeongdeungpo_afterwork() {
   )
 }
 
-export default yeongdeungpo_afterwork;
+export default gangdong_afterwork;
