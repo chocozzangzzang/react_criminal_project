@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 // import ReactDOM from 'react-dom';
 import { BrowserRouter , Routes , Route} from 'react-router-dom';
 import MAIN from './contents/main'
 import AccordionBarYDP from './contents/accordion_bar_ydp';
 import AccordionBarGD from './contents/accordion_bar_gangdong';
-// import AccordionBar2 from './contents/accordion_bar2';
+import AccordionBar2 from './contents/accordion_bar2';
 import YDPYUDONG from './contents/yeongdeungpo_yudong';
 import YDPALCO from './contents/yeongdeungpo_alco';
 import YDPINFRA from './contents/yeongdeungpo_infra';
@@ -20,6 +20,7 @@ import GDAFTER from './contents/gangdong_afterwork';
 import GDPOLICE from './contents/gangdong_police';
 import GDPREDICT from './contents/gangdong_predict';
 import SEOULPREDICT from './contents/seoul_predict';
+// import Accordion_bar2 from './contents/accordion_bar2';
 
 function App() {
 
@@ -33,7 +34,7 @@ function App() {
           <AccordionBarYDP title="절도(강서구)"/>
           <AccordionBarYDP title="성폭력(강남구)"/>
           <AccordionBarGD title="5대범죄(강동구)"/>
-          <AccordionBarYDP title="위험도지도"/>
+          <AccordionBar2 title="위험도지도"/>
         </div>
       </div>
       <div>
